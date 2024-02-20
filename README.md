@@ -1,8 +1,16 @@
-# React + Vite
+# React Tree File-Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Tree File-Manager is a versatile and user-friendly file management system built with React and JavaScript. This project enables users to effortlessly navigate, create, update, and delete files and folders in a visually appealing tree structure. With a focus on simplicity and extensibility, this file manager is designed for seamless integration into React applications, offering a responsive and interactive file exploration experience.
 
-Currently, two official plugins are available:
+## Key Features
+- Tree-structured file navigation
+- Create, update, and delete files and folders
+- Designed for easy integration with React applications
+- Customizable and extensible for diverse use cases
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Explore the demo application and integrate the file manager into your React project effortlessly.
+
+Feel free to star the repository if you find it useful, and don't hesitate to open issues or pull requests for improvements. Happy coding!
