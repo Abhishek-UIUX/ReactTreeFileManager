@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.folderContainerBody {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  grid-gap: 1em;
+}
+
+.empty-state {
+  margin: 5px;
+  display: flex;
+  height: calc(100vh - 10px);
+  align-items: center;
+  justify-content: center;
+}
+
+.folder-container {
+  padding: 5px;
+  background-color: #393E41;
+  display: flex;
+  flex-direction: column;
+}
+
+.folder:hover {
+  background-color: rgb(120, 120, 120);
+  border-radius: 5px;
+}
+.folder:hover .buttons-container {
+  visibility:visible;
+
+}
+.folder>div>button {
+  font-size: 16px;
+}
+
+.folder {
+  background-color: #393E41;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 3px;
+  /* width: 300px; */
+  position: relative;
+}
+
+.folder>span {
+  color: #fff;
+
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.folder>span>label {
+  display: inline-block;
+  margin: 3px 5px;
+  position: absolute;
+  top: 2px;
+}
+
+.addItem {
+  background-color: #393E41;
+  align-items: center;
+  padding: 5px 3px;
+  /* width: 300px; */
+  position: relative;
+}
+
+.addItem>span {
+  color: white;
+  padding-right: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  visibility:hidden;
+
+}
+
+.folder>span>input {
+  width: 75%;
+  margin-left: 5px;
+}
