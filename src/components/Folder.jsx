@@ -38,7 +38,8 @@ const Folder = ({
     });
   };
 
-  const handleUpdateFolderButton = (e, isFolder) => {
+  const handleUpdateFolderButton = (e, isFolder, nodeValue) => {
+    setNodeName(nodeValue);
     e.stopPropagation();
     setUpdateInput({
       visible: true,
@@ -68,6 +69,7 @@ const Folder = ({
     setNodeName(event.target.value);
   };
   if (explorerData.isFolder) {
+    console.log("nodeName", nodeName);
     return (
       <div>
         <div
@@ -97,7 +99,11 @@ const Folder = ({
             <button onClick={(e) => handleDeleteFolder(e, true)}>
               <VscTrash />
             </button>
-            <button onClick={(e) => handleUpdateFolderButton(e, true)}>
+            <button
+              onClick={(e) =>
+                handleUpdateFolderButton(e, true, explorerData.name)
+              }
+            >
               <VscEdit />
             </button>
             <button onClick={(e) => handleNewFolderButton(e, true)}>
@@ -159,7 +165,11 @@ const Folder = ({
           <button onClick={(e) => handleDeleteFolder(e, false)}>
             <VscTrash />
           </button>
-          <button onClick={(e) => handleUpdateFolderButton(e, false)}>
+          <button
+            onClick={(e) =>
+              handleUpdateFolderButton(e, false, explorerData.name)
+            }
+          >
             <VscEdit />
           </button>
         </div>
