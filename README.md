@@ -1,4 +1,4 @@
-# React Tree File-Manager
+# React Tree File-Explorer
 
 
 
