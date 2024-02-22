@@ -47,7 +47,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 5px 3px;
-  /* width: 300px; */
+  width: 300px;
   position: relative;
 }
 
@@ -75,7 +75,7 @@ button {
   background-color: #393E41;
   align-items: center;
   padding: 5px 3px;
-  /* width: 300px; */
+  width: 300px;
   position: relative;
 }
 
