@@ -1,4 +1,4 @@
-# React Tree File-Manager
+# React Tree File-Explorer
 
 
 
@@ -18,5 +18,8 @@ React Tree File-Manager is a versatile and user-friendly file management system 
 1. Clone the repository.
 2. Install dependencies using `npm install`.
 3. Explore the demo application and integrate the file manager into your React project effortlessly.
+
+## Demo
+Check out the live demo [here](https://react-tree-file-manager.vercel.app/).
 
 Feel free to star the repository if you find it useful, and don't hesitate to open issues or pull requests for improvements. Happy coding!
